@@ -1,0 +1,50 @@
+.product-page .contact-icon {
+    font-size: 50px;
+}
+
+.product-page .contact-value {
+    font-size: 14px;
+    color: #1f1f1f;
+}
+
+.product-page .product-name {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.product-page .product-options .option-item .option-name {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.product-page .product-options .option-item button {
+    border: none;
+    background: transparent;
+    border: 2px solid silver;
+    border-radius: 100px;
+    letter-spacing: 1px;
+    padding: 5px 0px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px 0px;
+}
+
+.product-page .product-options .option-item button.selected {
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+}
+
+.product-page .product-options .btn {
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.product-page .more-product-title {
+    font-size: 25px;
+}
+
+.product-page .product-item .product-name a {
+    color: #000;
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        background-color: transparent !important;
+    }
+
+    .navbar-expand-lg .navbar-brand img {
+        width: 156px;
+    }
+}
+
+.navbar-fixed-top {
+    transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+}
+
+.navbar-fixed-top .navbar {
+    transition: padding 200ms linear;
+}
+
+.navbar-fixed-top.scrolled .navbar {
+    padding: 15px 0px;
+}
+
+.navbar-fixed-top .navbar-brand {
+    transition: top 200ms linear;
+}
+
+.navbar-fixed-top.scrolled .navbar-brand {
+    position: absolute;
+    margin-left: 0px;
+    top: 0px;
+}
+
+.navbar-fixed-top .nav-item.order-online .btn {
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.main.with-nav {
+    padding-top: 220px;
+    padding-bottom: 100px;
+}
+
+.main.no-footer-padding {
+    padding-bottom: 0px;
+}
+
+.footer {
+    font-size: 14px;
+    letter-spacing: 1px;
+}

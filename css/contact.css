@@ -1,0 +1,15 @@
+.contact-page .contact-icon {
+    font-size: 50px;
+}
+
+.contact-page .contact-value {
+    font-size: 14px;
+    color: #1f1f1f;
+}
+
+.contact-page .contact-item {
+    height: 32.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

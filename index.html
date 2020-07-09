@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./logo.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/lightbox.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/landing.css">
+
+    <title>Pizza Napoli</title>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-main" data-offset="200">
+    <!-- HEADER -->
+    <div class="navbar-fixed-top fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light" id="navbar-main">
+                <a class="navbar-brand" href="#">
+                    <img src="./logo.png" width="120" alt="Pizza Napoli">
+                </a>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav ml-auto align-items-center bg-white rounded">
+                        <li class="nav-item px-3 text-center font-weight-bold active">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-3 text-center font-weight-bold">
+                            <a class="nav-link" href="./pages/products.html">Menu</a>
+                        </li>
+                        <li class="nav-item px-3 text-center font-weight-bold">
+                            <a class="nav-link" href="./pages/about.html">About</a>
+                        </li>
+                        <li class="nav-item px-3 text-center font-weight-bold">
+                            <a class="nav-link" href="./pages/gallery.html">Food Gallery</a>
+                        </li>
+                        <li class="nav-item px-3 text-center font-weight-bold">
+                            <a class="nav-link" href="./pages/contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item px-3 text-center font-weight-bold order-online">
+                            <a class="nav-link" href="./pages/location.html">
+                                <button class="btn btn-success py-2 px-3 text-uppercase"> Order Online </button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- MAIN -->
+    <div class="main landing-page">
+        <div class="container-banner">
+            <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-carousel d-block w-100" src="./img/banners/banner-1.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-carousel d-block w-100" src="./img/banners/banner-2.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-carousel d-block w-100" src="./img/banners/banner-3.png" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev text-dark" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next text-dark" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="container-products py-5" id="menu">
+            <div class="container-title text-center text-uppercase mb-4">
+                Our Best Sellers
+            </div>
+            <div class="container-content container-fluid">
+                <div class="row px-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 item" data-aos="fade" data-aos-offset="200">
+                        <div class="item-content" style="background-image: url('./img/products/pizza-1.jpg')">
+                            <div class="item-details-container text-center px-3">
+                                <div class="item-details-content py-4 px-3">
+                                    <div class="item-title font-weight-bold text-uppercase">
+                                        <a href="./pages/product.html">
+                                            Pepper, Onion and Olive
+                                        </a>
+                                    </div>
+                                    <div class="item-subtitle text-uppercase font-weight-bold text-success">Starting $7.99</div>
+                                    <div class="item-button">
+                                        <button class="btn btn-success py-3 px-4 text-uppercase font-weight-bold" data-toggle="modal" data-target="#productModal" data-image="./img/products/pizza-1.jpg" data-title="Pepper, Onion and Olive" data-price="7.99"> Order Now </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 item" data-aos="fade" data-aos-offset="200">
+                        <div class="item-content" style="background-image: url('./img/products/pizza-2.jpg')">
+                            <div class="item-details-container text-center px-3">
+                                <div class="item-details-content py-4 px-3">
+                                    <div class="item-title font-weight-bold text-uppercase">
+                                        <a href="./pages/product.html">
+                                            Tomato, Cheese, and Spinach
+                                        </a>
+                                    </div>
+                                    <div class="item-subtitle text-uppercase font-weight-bold text-success">Starting $7.99</div>
+                                    <div class="item-button">
+                                        <button class="btn btn-success py-3 px-4 text-uppercase font-weight-bold" data-toggle="modal" data-target="#productModal" data-image="./img/products/pizza-2.jpg" data-title="Tomato, Cheese, and Spinach" data-price="7.99"> Order Now </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 item" data-aos="fade" data-aos-offset="200">
+                        <div class="item-content" style="background-image: url('./img/products/pizza-3.jpg')">
+                            <div class="item-details-container text-center px-3">
+                                <div class="item-details-content py-4 px-3">
+                                    <div class="item-title font-weight-bold text-uppercase">
+                                        <a href="./pages/product.html">
+                                            Tomato, Jalapeno, Mushroom
+                                        </a>
+                                    </div>
+                                    <div class="item-subtitle text-uppercase font-weight-bold text-success">Starting $7.99</div>
+                                    <div class="item-button">
+                                        <button class="btn btn-success py-3 px-4 text-uppercase font-weight-bold" data-toggle="modal" data-target="#productModal" data-image="./img/products/pizza-3.jpg" data-title="Tomato, Jalapeno, Mushroom" data-price="7.99"> Order Now </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 item" data-aos="fade" data-aos-offset="200">
+                        <div class="item-content" style="background-image: url('./img/products/pizza-4.jpg')">
+                            <div class="item-details-container text-center px-3">
+                                <div class="item-details-content py-4 px-3">
+                                    <div class="item-title font-weight-bold text-uppercase">
+                                        <a href="./pages/product.html">
+                                            Broccoli, Cauliflower, and Olives
+                                        </a>
+                                    </div>
+                                    <div class="item-subtitle text-uppercase font-weight-bold text-success">Starting $7.99</div>
+                                    <div class="item-button">
+                                        <button class="btn btn-success py-3 px-4 text-uppercase font-weight-bold" data-toggle="modal" data-target="#productModal" data-image="./img/products/pizza-4.jpg" data-title="Broccoli, Cauliflower, and Olives" data-price="7.99"> Order Now </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productModalTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <form>
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="productModalTitle">Order Form</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body px-3">
+                                <div class="order-item p-3 border-bottom">
+                                    <div class="text-center pb-2">
+                                        <img class="product-image w-50 rounded" src="./img/products/pizza-1.jpg">
+                                    </div>
+                                    <div class="product-name text-center font-weight-bold text-uppercase text-dark">
+
+                                    </div>
+                                    <div class="product-price text-center font-weight-bold text-success">
+
+                                    </div>
+                                </div>
+                                <div class="order-form mt-3">
+                                    <div class="form-group">
+                                        <label for="orderName">Name</label>
+                                        <input type="text" class="form-control" id="orderName" placeholder="Enter your full name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="orderContact">Contact Number</label>
+                                        <input type="text" class="form-control" id="orderContact">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="orderAddress">Delivery Address</label>
+                                        <textarea class="form-control" id="orderAddress" aria-describedby="orderAddressHelp" placeholder="Enter your complete address"></textarea>
+                                        <small id="orderAddressHelp" class="form-text text-muted">Please make sure to enter a real address or include a landmark. We will contact you to clarify your address.</small>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">I agree to Pizza Napoli's <a href="#"> Terms and Conditions </a></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary">Submit Order</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-about p-5" id="about">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12 p-5" data-aos="fade-right" data-aos-offset="200">
+                    <img class="w-100" src="./img/about-image.png">
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12" data-aos="fade-bottom" data-aos-offset="200">
+                    <div class="about-title text-light font-weight-bold text-uppercase mb-4">
+                        <h1>Pizza Napoli</h1>
+                    </div>
+                    <div class="about-content text-light">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, recusandae dignissimos natus consequatur aut necessitatibus culpa enim ducimus magni officiis quos nam quidem, totam saepe fugit. Eos illo sint consequatur.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur praesentium magnam quaerat error dolorem ut, animi doloremque fugiat accusamus distinctio rerum modi expedita voluptatum necessitatibus repellendus pariatur quo? Eum, suscipit.
+                        <br><br>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum maiores quas velit esse possimus accusantium, nemo eum tempora officia eaque amet voluptatibus animi rerum facere explicabo minima. Suscipit, qui voluptatibus.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est aliquid cumque delectus qui, blanditiis at ab, id voluptas sapiente unde suscipit, itaque quibusdam iure! Ab nihil sed alias neque nesciunt.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-gallery p-5" id="gallery">
+            <div class="container-title text-center text-uppercase mb-4">
+                Gallery
+            </div>
+            <div class="container">
+                <div class="row py-3">
+                    <a href="./img/gallery/gallery-1.jpg" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 py-3" data-aos="zoom-out-up" data-aos-offset="200" data-toggle="lightbox" data-gallery="pizza-gallery">
+                        <img src="./img/gallery/gallery-1.jpg" data-toggle=”modal” data-target=”#galleryModal” class="img-fluid rounded">
+                    </a>
+                    <a href="./img/gallery/gallery-2.jpg" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 py-3" data-aos="zoom-out-up" data-aos-offset="200" data-toggle="lightbox" data-gallery="pizza-gallery">
+                        <img src="./img/gallery/gallery-2.jpg" class="img-fluid rounded">
+                    </a>
+                    <a href="./img/gallery/gallery-3.jpg" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 py-3" data-aos="zoom-out-up" data-aos-offset="200" data-toggle="lightbox" data-gallery="pizza-gallery">
+                        <img src="./img/gallery/gallery-3.jpg" class="img-fluid rounded">
+                    </a>
+                    <a href="./img/gallery/gallery-4.jpg" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 py-3" data-aos="zoom-out-up" data-aos-offset="200" data-toggle="lightbox" data-gallery="pizza-gallery">
+                        <img src="./img/gallery/gallery-4.jpg" class="img-fluid rounded">
+                    </a>
+                    <a href="./img/gallery/gallery-5.jpg" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 py-3" data-aos="zoom-out-up" data-aos-offset="200" data-toggle="lightbox" data-gallery="pizza-gallery">
+                        <img src="./img/gallery/gallery-5.jpg" class="img-fluid rounded">
+                    </a>
+                    <a href="./img/gallery/gallery-6.jpg" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 py-3" data-aos="zoom-out-up" data-aos-offset="200" data-toggle="lightbox" data-gallery="pizza-gallery">
+                        <img src="./img/gallery/gallery-6.jpg" class="img-fluid rounded">
+                    </a>
+                    <a href="./img/gallery/gallery-7.jpg" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 py-3" data-aos="zoom-out-up" data-aos-offset="200" data-toggle="lightbox" data-gallery="pizza-gallery">
+                        <img src=" ./img/gallery/gallery-7.jpg" class="img-fluid rounded">
+                    </a>
+                    <a href="./img/gallery/gallery-8.jpg" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 py-3" data-aos="zoom-out-up" data-aos-offset="200" data-toggle="lightbox" data-gallery="pizza-gallery">
+                        <img src="./img/gallery/gallery-8.jpg" class="img-fluid rounded">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-contact bg-dark p-5" id="contact">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 py-3" data-aos="flip-left" data-aos-offset="200">
+                        <div class="row align-items-center">
+                            <div class="col-2">
+                                <svg width="100%" viewBox="0 0 16 16" class="bi bi-telephone" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M3.925 1.745a.636.636 0 0 0-.951-.059l-.97.97c-.453.453-.62 1.095-.421 1.658A16.47 16.47 0 0 0 5.49 10.51a16.471 16.471 0 0 0 6.196 3.907c.563.198 1.205.032 1.658-.421l.97-.97a.636.636 0 0 0-.06-.951l-2.162-1.682a.636.636 0 0 0-.544-.115l-2.052.513a1.636 1.636 0 0 1-1.554-.43L5.64 8.058a1.636 1.636 0 0 1-.43-1.554l.513-2.052a.636.636 0 0 0-.115-.544L3.925 1.745zM2.267.98a1.636 1.636 0 0 1 2.448.153l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z" />
+                                </svg>
+                            </div>
+                            <div class="col">
+                                <div class="font-weight-bold text-light text-uppercase">
+                                    Have any questions?
+                                </div>
+                                <div class="text-light">
+                                    (416) 293-6565
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 py-3" data-aos="flip-up" data-aos-offset="200">
+                        <div class="row align-items-center">
+                            <div class="col-2">
+                                <svg width="100%" viewBox="0 0 16 16" class="bi bi-share" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M11.724 3.947l-7 3.5-.448-.894 7-3.5.448.894zm-.448 9l-7-3.5.448-.894 7 3.5-.448.894z" />
+                                    <path fill-rule="evenodd" d="M13.5 4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm0 10a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm-11-6.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
+                                </svg>
+                            </div>
+                            <div class="col">
+                                <div class="font-weight-bold text-light text-uppercase">
+                                    Follow Us
+                                </div>
+                                <div class="text-light">
+                                    @pizzanapoliofficial
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 py-3" data-aos="flip-right" data-aos-offset="200">
+                        <div class="row align-items-center">
+                            <div class="col-2">
+                                <svg width="100%" viewBox="0 0 16 16" class="bi bi-envelope" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+                                </svg>
+                            </div>
+                            <div class="col">
+                                <div class="font-weight-bold text-light text-uppercase">
+                                    Need some help?
+                                </div>
+                                <div class="text-light">
+                                    support@pizzanapoli.com
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-store-location p-5" id="location">
+            <div class="container-title text-center text-uppercase mb-4">
+                Visit Our Location
+            </div>
+            <div class="location-content container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 py-3" data-aos="zoom-in-down" data-aos-offset="200">
+                        <img class="w-100" src="./img/rider.png">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 py-2 px-5" data-aos="zoom-in-down" data-aos-offset="200">
+                        <div class="location my-5">
+                            <div class="location-title font-weight-bold text-uppercase mb-2">
+                                Place Name
+                            </div>
+                            <div class="location-address font-weight-bold">
+                                9-585 Middlefield Rd, Scarborough, ON M1V 4Y5, Canada
+                            </div>
+                        </div>
+                        <div class="store-hours my-5">
+                            <div class="store-hours-title font-weight-bold text-uppercase mb-2">
+                                Hours Of Operation
+                            </div>
+                            <div class="font-weight-bold">
+                                <div>Mon-Fri 11:00am - 9:00pm</div>
+                                <div>Sat-Sun 11:00am - 8:00pm</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 p-3" data-aos="zoom-in-down" data-aos-offset="200">
+                        <iframe class="rounded w-100" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:EjM1ODUgTWlkZGxlZmllbGQgUmQsIFNjYXJib3JvdWdoLCBPTiBNMVYgNFk1LCBDYW5hZGEiMRIvChQKEglFcn6XMdHUiRFOPkaVK7kf_RDJBCoUChIJL0xDLs_W1IkRGvTFsFFBzFg&key=AIzaSyBAc03IEcfrq_VX3tMmyrZM1GQSCh-rqi0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" footer bg-dark p-3 text-light">
+        Copyright 2020 &copy; | www.pizzanapoli.com | Designed by <a class="text-decoration-none text-light" href=" https://www.linkedin.com/in/mrkrffy/">Mark Raffy Bahalla</a>
+    </div>
+</body>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/aos.js"></script>
+<script src="./js/lightbox.min.js"></script>
+<script src="./js/index.js"></script>
+
+</html>
