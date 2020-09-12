@@ -22,7 +22,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light" id="navbar-main">
                 <a class="navbar-brand" href="#">
-                    <img src="./logo.png" width="120" alt="Pizza Napoli">
+                    <img src="./logo.png" width="120" alt="Online Centre">
                 </a>
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -33,13 +33,13 @@
                             <a class="nav-link" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item px-3 text-center font-weight-bold">
-                            <a class="nav-link" href="./pages/products.html">Menu</a>
+                            <a class="nav-link" href="./pages/products.html">Products</a>
                         </li>
                         <li class="nav-item px-3 text-center font-weight-bold">
                             <a class="nav-link" href="./pages/about.html">About</a>
                         </li>
                         <li class="nav-item px-3 text-center font-weight-bold">
-                            <a class="nav-link" href="./pages/gallery.html">Food Gallery</a>
+                            <a class="nav-link" href="./pages/gallery.html">Enquiry</a>
                         </li>
                         <li class="nav-item px-3 text-center font-weight-bold">
                             <a class="nav-link" href="./pages/contact.html">Contact</a>
@@ -97,7 +97,7 @@
                                     </div>
                                     <div class="item-subtitle text-uppercase font-weight-bold text-success">Starting $7.99</div>
                                     <div class="item-button">
-                                        <button class="btn btn-success py-3 px-4 text-uppercase font-weight-bold" data-toggle="modal" data-target="#productModal" data-image="./img/products/pizza-1.jpg" data-title="Pepper, Onion and Olive" data-price="7.99"> Order Now </button>
+                                        <button class="btn btn-success py-3 px-4 text-uppercase font-weight-bold"> Order Now </button>
                                     </div>
                                 </div>
                             </div>
@@ -114,7 +114,7 @@
                                     </div>
                                     <div class="item-subtitle text-uppercase font-weight-bold text-success">Starting $7.99</div>
                                     <div class="item-button">
-                                        <button class="btn btn-success py-3 px-4 text-uppercase font-weight-bold" data-toggle="modal" data-target="#productModal" data-image="./img/products/pizza-2.jpg" data-title="Tomato, Cheese, and Spinach" data-price="7.99"> Order Now </button>
+                                        <button class="btn btn-success py-3 px-4 text-uppercase font-weight-bold"> Order Now </button>
                                     </div>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@
                                     </div>
                                     <div class="item-subtitle text-uppercase font-weight-bold text-success">Starting $7.99</div>
                                     <div class="item-button">
-                                        <button class="btn btn-success py-3 px-4 text-uppercase font-weight-bold" data-toggle="modal" data-target="#productModal" data-image="./img/products/pizza-3.jpg" data-title="Tomato, Jalapeno, Mushroom" data-price="7.99"> Order Now </button>
+                                        <button class="btn btn-success py-3 px-4 text-uppercase font-weight-bold"> Order Now </button>
                                     </div>
                                 </div>
                             </div>
@@ -148,63 +148,11 @@
                                     </div>
                                     <div class="item-subtitle text-uppercase font-weight-bold text-success">Starting $7.99</div>
                                     <div class="item-button">
-                                        <button class="btn btn-success py-3 px-4 text-uppercase font-weight-bold" data-toggle="modal" data-target="#productModal" data-image="./img/products/pizza-4.jpg" data-title="Broccoli, Cauliflower, and Olives" data-price="7.99"> Order Now </button>
+                                        <button class="btn btn-success py-3 px-4 text-uppercase font-weight-bold"> Order Now </button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Modal -->
-            <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productModalTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <form>
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="productModalTitle">Order Form</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body px-3">
-                                <div class="order-item p-3 border-bottom">
-                                    <div class="text-center pb-2">
-                                        <img class="product-image w-50 rounded" src="./img/products/pizza-1.jpg">
-                                    </div>
-                                    <div class="product-name text-center font-weight-bold text-uppercase text-dark">
-
-                                    </div>
-                                    <div class="product-price text-center font-weight-bold text-success">
-
-                                    </div>
-                                </div>
-                                <div class="order-form mt-3">
-                                    <div class="form-group">
-                                        <label for="orderName">Name</label>
-                                        <input type="text" class="form-control" id="orderName" placeholder="Enter your full name">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="orderContact">Contact Number</label>
-                                        <input type="text" class="form-control" id="orderContact">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="orderAddress">Delivery Address</label>
-                                        <textarea class="form-control" id="orderAddress" aria-describedby="orderAddressHelp" placeholder="Enter your complete address"></textarea>
-                                        <small id="orderAddressHelp" class="form-text text-muted">Please make sure to enter a real address or include a landmark. We will contact you to clarify your address.</small>
-                                    </div>
-                                    <div class="form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">I agree to Pizza Napoli's <a href="#"> Terms and Conditions </a></label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="btn btn-primary">Submit Order</button>
-                            </div>
-                        </form>
                     </div>
                 </div>
             </div>
